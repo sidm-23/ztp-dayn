@@ -1,0 +1,10 @@
+job:
+  name: ztp-dayN-job
+  image:
+    repository: 
+  numberOfNodes: "2"
+  opsmode: 
+
+store_info:
+  store_id: ST0788
+  store_json: ST0788.json
