@@ -6,5 +6,5 @@ job:
   opsmode: 
 
 store_info:
-  store_id: ST0788
-  store_json: ST0788.json
+  store_id: ST0777
+  store_json: ST0777.json
