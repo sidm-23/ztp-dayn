@@ -1,9 +1,8 @@
 job:
   name: ztp-dayN-job
   image:
-    repository: 
+    repository: 657273346644.dkr.ecr.us-east-1.amazonaws.com/hpe-hcss/ztp-dayn-image:v0.0.1-register
   numberOfNodes: "2"
-  opsmode: 
 
 store_info:
   store_id: ST0777
