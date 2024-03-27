@@ -11,5 +11,5 @@ spec:
       containers:
       - name: {{ .Values.job.name }}
         image: {{ .Values.job.image.repository }}
-        command: ["python3", "ZTP/tpm_backup.py", "{{ .Values.store_info.store_json }}" ] 
+        command: ["python3", "./tpm_backup.py", "{{ .Values.store_info.store_json }}" ] 
       restartPolicy: Never
